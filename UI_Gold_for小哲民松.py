@@ -35,7 +35,7 @@ class UI_Gold(PyQt5_QDialog):
         # 控制绳子摆动的变量
         self.finalX=0    
         self.finalY=30  
-        # 启动游戏的按钮
+        # 启动游戏甘蓝的按钮
         self.downButton=PyQt5_QPushButton(self,0,0,600,400)
         self.downButton.setBackgroundColor("transparent")
         self.downButton.clicked.connect(self.downButtonclicked)
